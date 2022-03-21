@@ -6,15 +6,11 @@
  */
 int main(void)
 {
-	for (char ch = 'a'; ch <= 'z'; ch++)
+	for (int i = 0; i <= 9; i++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
+		printf("%d", i);
 	}
-	putchar('\n');
-
+	printf("\n");
 
 	return (0);
 }
