@@ -1,16 +1,24 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- * main - Program entry point
- *
- * Return: 0 on success. Error code otherwise
+ * main - main block
+ * Description: prints all single digit of base 10
+ * starting from 0, follwoed by a new line.
+ * Return: 0
  */
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
+	char c = '0';
+
+
+	while (c <= '9')
 	{
-		printf("%d", i);
+		putchar(c);
+		c++;
 	}
-	printf("\n");
+
+	putchar('\n');
 
 	return (0);
 }
