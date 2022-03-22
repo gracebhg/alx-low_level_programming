@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * print_last_digit - return last digit
- *   * @n : number to check
- *    * Return: digit between 0 and 9
- *     */
+ * print_last_digit - return last digit
+ * @n : number to check
+ * Return: digit between 0 and 9
+ */
 
 int print_last_digit(int n)
 {
