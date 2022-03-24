@@ -1,14 +1,15 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
- * *_strcat - concatenates @src to @dest
+ * _strcat - concatenates @src to @dest
  * @src: the source string to append to @dest
  * @dest: the destiation string to be concatenated upon
- * Return:pointer to the resulting string
+ * Return: pointer to the resulting string
  */
-
-char *_strcat(char *dest, char *src)
+int main(void)
 {
+	char *_strcat(char *dest, char *src);
 	int index = 0;
 	int dest_len = 0;
 
